@@ -1,0 +1,41 @@
+.list {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0rem;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 2rem;
+  text-decoration: none;
+  background: linear-gradient(35deg, #494949, #313131);
+  width: 6rem;
+  height: 6rem;
+  cursor: pointer;
+  transform: scale(0.8);
+}
+
+.link h4 {
+  color: white;
+  font-size: 0.8rem;
+}
+.link svg {
+  color: white;
+  font-size: 1.5rem;
+}
+
+nav .active {
+  background: linear-gradient(to right, #f27121, #e94057);
+}
+
+.link svg.active {
+  color: white;
+}
+
+.link h4:active {
+  color: white;
+}

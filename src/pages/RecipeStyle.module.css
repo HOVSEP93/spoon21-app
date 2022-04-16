@@ -1,0 +1,12 @@
+.wrapper {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  display: flex;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+li {
+}
